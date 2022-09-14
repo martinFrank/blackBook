@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <ImageButton
+            android:text="Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_prev"
+            android:layout_weight="1"
+            android:src="@drawable/previous"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"/>
+
+    <ImageButton
+            android:text="Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_add"
+            android:layout_weight="1"
+            android:src="@drawable/add"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"/>
+
+    <ImageButton
+            android:text="Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_lock"
+            android:layout_weight="1"
+            android:src="@drawable/padlock"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"/>
+
+    <ImageButton
+            android:text="Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_play"
+            android:layout_weight="1"
+            android:src="@drawable/play"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"/>
+
+    <ImageButton
+            android:text="Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_next"
+            android:layout_weight="1"
+            android:src="@drawable/next"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"/>
+</LinearLayout>
